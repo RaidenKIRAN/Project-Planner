@@ -7,4 +7,4 @@ class ProfileSerializer(serializers.ModelSerializer):
 
         model = Profile
 
-        fields = ['first_name','username','role']
+        fields = ['id','first_name','username','role','tech']
